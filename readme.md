@@ -6,5 +6,5 @@ This project is an assignment given by Hitesh Choudhary Sir in FSJS Bootcamp.
 ### Complete Project
 ![Screenshot](./readmeImgs/Capture.PNG)
 
-#### [Live link]()
+#### [Live link](https://design-landing-pagee.netlify.app/)
 #### It took me 3 hours to build this project.
