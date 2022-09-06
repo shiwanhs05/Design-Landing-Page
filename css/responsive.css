@@ -1,0 +1,24 @@
+@media screen and (max-width: 1192px) 
+{
+  .imgs-div{
+    display: none;
+  }
+  .left-section{
+    align-items: center;
+  }
+  h4{
+    text-align: center;
+    width: 85%;
+  }
+}
+@media screen and (max-width: 864px) {
+  .nav-items{
+    display: none;
+  }
+}
+@media  screen and (max-width: 1264px) {
+  .vector-img, .vector-dot{
+    display: none;
+  }
+  
+}

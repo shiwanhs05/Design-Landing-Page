@@ -1,0 +1,89 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.btn{
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  border: none;
+  padding: .5em 1em;
+  letter-spacing: 1px;
+}
+body {
+  background-image: url("../images/backcover.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.main-div{
+  width: 97.5%;
+  max-width: 1264px;
+  margin: 0 auto;
+  height: 100vh;
+}
+/* Navbar */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items{
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+}
+.nav-item{
+  font-size: 1rem;
+  color: #965cf2;
+}
+/* Intro Section */
+.intro-section{
+  display: flex;
+  height: calc(100vh - 15vh);
+  position: relative;
+}
+/* Left Section */
+.left-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3.5rem;
+}
+h1{
+  font-size: 3.75rem;
+  color: #312e81;
+}
+h4{
+  width: 50%;
+  color: gray;
+  font-size: 1.125rem;
+}
+.learn-more-btn{
+  font-size: 1.5rem;
+}
+
+/* Right section */
+.imgs-div{
+  position: relative;
+  width: 100%;
+}
+.intro-img{
+  position: absolute;
+  top: 0%;
+  right: 50%;
+}
+.vector-img{
+  position: absolute;
+  bottom: 7.5%;
+  left: -65%;
+}
+.vector-dot{
+  position: absolute;
+  bottom: 22.5%;
+  left: -270px;
+  z-index: 5;
+}
